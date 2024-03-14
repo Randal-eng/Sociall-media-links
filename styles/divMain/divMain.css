@@ -1,0 +1,99 @@
+body,
+html {
+    background-color: hsl(0, 0%, 8%);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.contenedor {
+    width: 20rem;
+    height: 32rem;
+}
+
+.contenedor__cajaEnlaces {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+.contendor__imagen {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.contendor__imagen--avatar {
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+    transform: scale(.65);
+}
+
+.contenedor__Perfil {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor__texto {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.ubicacion{
+    font-size: 12px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.descripcion {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.contenedorEnlaces{
+    width: 80%;
+    height: 50%;
+    margin: 25px auto;
+}
+
+.contedorEnlaces__enlace{
+    width: 100%;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+
+.contenedorEnlaces__enlace--ancla{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.contedorEnlaces__enlace:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.contedorEnlaces__enlace:hover .contenedorEnlaces__enlace--ancla{
+    color: hsl(0, 0%, 8%);
+    font-weight: 600;
+}
+
+
